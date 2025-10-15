@@ -5,20 +5,20 @@
 краткий список ключевых возможностей.
 ## 🛠 Требования/зависимости:
  версия Python, библиотеки (или ссылка на requirements.txt).
- # Установка зависимостей
+ ### Установка зависимостей
 pip install -r requirements.txt
 
-### Установка
+# Установка
 
-# Клонирование репозитория
+## Клонирование репозитория
 git clone https://github.com/sofya-kuchinskaya/CalculusTool.git
 
-# Создание виртуального окружения
-# Для Windows:
+## Создание виртуального окружения
+### Для Windows:
 python -m venv calculus_venv
 calculus_venv\Scripts\activate
 
-# Для macOS/Linux:
+### Для macOS/Linux:
 python3 -m venv calculus_venv
 source calculus_venv/bin/activate
 
