@@ -15,6 +15,8 @@
 ## Клонирование репозитория
 git clone https://github.com/sofya-kuchinskaya/CalculusTool.git
 
+cd CalculusTool
+
 ## Создание виртуального окружения
 ### Для Windows:
 python -m venv calculus_venv
