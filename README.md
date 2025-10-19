@@ -18,10 +18,12 @@ git clone https://github.com/sofya-kuchinskaya/CalculusTool.git
 ## Создание виртуального окружения
 ### Для Windows:
 python -m venv calculus_venv
+
 calculus_venv\Scripts\activate
 
 ### Для macOS/Linux:
 python3 -m venv calculus_venv
+
 source calculus_venv/bin/activate
 
 ### Установка зависимостей
