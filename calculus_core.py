@@ -20,7 +20,7 @@ def derivative(expression: str, variable: str, order: int = 1) -> str:
      result = diff(expression, variable, order)
      return result
     except Exception:
-       print("Некорректный синтаксисис")
+       return "Некорректный синтаксис"
        
 if __name__=="__main__":
    test_cases_1 = [
@@ -41,11 +41,9 @@ if __name__=="__main__":
         ("sin(x", "x", 2) ]
    
 
-for expr, var in test_cases_1:
-    result = derivative(expr, var)
-    if result is not None:
-     print(f"Производная {expr} по {var}: {result}")
-for expr, var, order in test_cases_2:
+   for expr, var in test_cases_1:
+        result = derivative(expr, var)
+        print(f"Производная {expr} по {var}: {result}")
+   for expr, var, order in test_cases_2:
         result = derivative(expr, var, order)
-        if result is not None:
-         print(f"{order}-я производная {expr} по {var}: {result}")
+        print(f"{order}-я производная {expr} по {var}: {result}")
